@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -35,16 +37,22 @@ header h1 {
 }
 
 header .subtitle {
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1.5rem;
     color: #FF0606;
     margin-bottom: 1rem;
     font-weight: 600;
 }
 
+header .subtitle p {
+    font-family: 'JetBrains Mono', monospace;
+}
+
 header .tagline {
+    font-family: 'JetBrains Mono', monospace;
     font-size: 1.1rem;
     opacity: 0.9;
-    font-style: italic;
+    font-style: normal;
 }
 
 header .meta-info {
