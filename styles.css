@@ -624,6 +624,27 @@ table tr:hover {
     margin-top: 2rem;
 }
 
+/* Goods Showcase */
+.goods-showcase {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.goods-showcase h3 {
+    font-size: 1.8rem;
+    color: #000000;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.goods-image {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
 .contact-section h3 {
     color: white;
     margin: 0 0 2rem 0;
