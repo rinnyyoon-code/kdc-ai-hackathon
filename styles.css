@@ -38,7 +38,7 @@ header h1 {
 
 header .subtitle {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #FF0606;
     margin-bottom: 1rem;
     font-weight: 600;
@@ -50,7 +50,7 @@ header .subtitle p {
 
 header .tagline {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     opacity: 0.9;
     font-style: normal;
 }
