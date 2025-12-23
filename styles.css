@@ -600,10 +600,31 @@ table tr:hover {
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .result-level-card .level-tag-gray {
+    background: #6c757d;
+}
+
+.result-level-card .level-number-tag {
+    display: inline-block;
+    background: #000000;
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.result-level-card .level-number-light-red {
+    background: #ff9999;
+    color: white;
+}
+
+.result-level-card .level-number-gray {
     background: #6c757d;
 }
 
