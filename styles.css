@@ -796,7 +796,7 @@ html {
 .notice-content ul {
     list-style: none;
     padding: 0;
-    margin: 15px 0;
+    margin: 15px auto;  /* 0에서 auto로 변경 */
     text-align: left;
     display: inline-block;
 }
