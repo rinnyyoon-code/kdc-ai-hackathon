@@ -763,3 +763,60 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
+/* 공지사항 배너 */
+.notice-banner {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border-bottom: 3px solid #e63946;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.notice-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.notice-content h3 {
+    color: #e63946;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.notice-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.notice-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+    text-align: left;
+    display: inline-block;
+}
+
+.notice-content ul li {
+    font-size: 16px;
+    margin: 8px 0;
+    padding-left: 20px;
+    position: relative;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.notice-content ul li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #e63946;
+}
+
+.notice-content strong {
+    color: #e63946;
+    font-weight: 700;
+}
